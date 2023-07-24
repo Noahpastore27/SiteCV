@@ -5,13 +5,15 @@ export default function About () {
     <div>
         <div className="row g-0">
             <div className="col-8">
-              <h1 className="Animation_text_home">LANGLOIS Noah</h1>
-              <p className="scale_in_center">Actuellement étudiant ingénieur à l&apos;<a href="https://www.ensma.fr/" 
-              target="_blank" rel="noopener noreferrer">ISAE-ENSMA</a> où je me suis spécialisé en informatique
-              et avionique, je suis à la recherche d&apos;un projet de fin d&apos;étude afin d&apos;achever ma formation.</p>
-              <p className="scale_in_center">Vous pourrez retrouver sur ce site toutes les informations me concerant, mon expérience, ma formation et plein
+                <div className="mb-5">
+                    <h1 className="Animation_text_home">LANGLOIS Noah</h1>
+                </div>
+                <p className="scale_in_center">Actuellement étudiant ingénieur à l&apos;<a href="https://www.ensma.fr/" 
+                target="_blank" rel="noopener noreferrer">ISAE-ENSMA</a> où je me suis spécialisé en informatique
+                et avionique, je suis à la recherche d&apos;un projet de fin d&apos;étude afin d&apos;achever ma formation.</p>
+                <p className="scale_in_center">Vous pourrez retrouver sur ce site toutes les informations me concerant, mon expérience, ma formation et plein
                 d&apos;autres ! N&apos;hésitez pas à me contacter !
-              </p>
+                </p>
             </div>
             <div className="col ms-5">
               <Image className="Animation_text_home" src={Id} alt="" height='250'></Image>
