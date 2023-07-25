@@ -112,8 +112,8 @@ export default function App() {
 
   return (
     <>
-      <div className="min-vh-100 row g-0">
-        <div className="col-2 text-bg-dark pt-3">
+      <div className="vh-100 row g-0">
+        <div className="col-2 text-bg-dark pt-3 vh-100">
           <Image className="ms-3" src={Id} alt="" height="150"></Image>
           <h4 className="mt-3 ms-3">LANGLOIS Noah</h4>
           <p className="ms-4 ps-3">Étudiant ingénieur</p>
@@ -121,7 +121,7 @@ export default function App() {
           <BtnGroupNav></BtnGroupNav>
           </ul>
         </div>
-        <div className="col p-5 overflow-auto">
+        <div className="col p-5 overflow-auto vh-100">
           {displayPage()}
         </div>
       </div>
