@@ -1,6 +1,8 @@
 import Id from "../public/images/Id.png"
 import Image from "next/image"
 import About from "./about"
+import Formation from "./formation";
+import Experience from "./experience";
 import { useState } from "react";
 export default function App() {
   
@@ -18,10 +20,10 @@ export default function App() {
       return (<About></About>);
     };
     if (currentPage === 'formation') {
-      return (<></>);
+      return (<Formation></Formation>);
     };
     if (currentPage === 'experience') {
-      return (<></>);
+      return (<Experience></Experience>);
     }
     if (currentPage === 'projets') {
       return (<></>);
