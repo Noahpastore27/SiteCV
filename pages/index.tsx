@@ -3,6 +3,7 @@ import Image from "next/image"
 import About from "./about"
 import Formation from "./formation";
 import Experience from "./experience";
+import Projets from "./projets";
 import { useState } from "react";
 export default function App() {
   
@@ -26,7 +27,7 @@ export default function App() {
       return (<Experience></Experience>);
     }
     if (currentPage === 'projets') {
-      return (<></>);
+      return (<Projets></Projets>);
     }
     if (currentPage === 'encore') {
       return (<></>);
