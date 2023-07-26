@@ -2,17 +2,27 @@ import Image from "next/image";
 import emn from "../public/images/emn.svg"
 import leclerc from "../public/images/leclerc.png"
 import endel from "../public/images/endel.png"
+import ace from "../public/images/ace.png"
+import ru from "../public/images/ru.png"
 import { useState } from "react";
 export default function Experience () {
 
     const [jobetu,setJobetu]=useState(0)
-
+    const [stage,setStage]=useState(1)
     const DefJob = () => {
         if (jobetu===0) {
             setJobetu(1)
         }
         if (jobetu===1) {
             setJobetu(0)
+        }
+    }
+    const DefStage = () => {
+        if (stage===0) {
+            setStage(1)
+        }
+        if (stage===1) {
+            setStage(0)
         }
     }
 
@@ -92,8 +102,68 @@ export default function Experience () {
         }
     }
 
+    function MoreStage () {
+        if (stage===0) {
+            return (<></>);
+        }
+        if (stage===1) {
+            return (
+            <div className="">
+                <div className="card">
+                    <div className="card-body">
+                        <div className="row g-0">
+                            <div className="col">
+                                <h2>Stage ouvrier</h2>
+                                <p>
+                                    Vision plus complète du fonctionnement d&apos;une entreprise et de
+                                    la vie ouvrière et celle d&apos;un atelier.
+                                </p>
+                                <a href="https://ace-normandie.com/lentreprise/lentreprise-2/" target="_blank" rel="noopener noreferrer">
+                                ACE</a>
+                                <p>Querqueville</p>
+                                <a href="../public/pdf/LANGLOIS_Noah_SO2022.pdf"
+                                download>Rapport de stage</a>
+                            </div>
+                            <div className="col text-center mt-2">
+                                <Image src={ace} alt="" height="100"></Image>
+                            </div>
+                            <div className="col mt-5 text-center">
+                                <h3 className="">Juillet 2022</h3>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                <div className="">
+                    <div className="card">
+                        <div className="card-body">
+                            <div className="row g-0">
+                                <div className="col">
+                                    <h2>Stage ingénieur</h2>
+                                    <p>Activité de recherche et développement dans le cadre du projet &apos;&apos;Accroître le soutien 
+                                    aux ingénieurs logiciels atteints de maladies neurodivergentes et étudiants en informatique&apos;&apos; ainsi 
+                                    qu&apos;un projet en Smart Contract Security.</p>
+                                    <br></br>
+                                    <a href="https://en.ru.is/" target="_blank" rel="noopener noreferrer">
+                                    Reykjavik University</a>
+                                    <p>Reykjavik, ISLANDE</p>
+                                </div>
+                                <div className="col mt-4 text-center">
+                                    <Image src={ru} alt="" height="125"></Image>
+                                </div>
+                                <div className="col text-center mt-5">
+                                    <h3>Juin-Août 2023</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            );
+        }
+    }
 
-    function MoreBtn () {
+
+    function MoreJobBtn () {
         if (jobetu===0) {
             return (
                 <button className="btn btn-secondary" onClick={() => DefJob()}>
@@ -113,6 +183,28 @@ export default function Experience () {
             );
         }
     }
+
+    function MoreStageBtn () {
+        if (stage===0) {
+            return (
+                <button className="btn btn-secondary" onClick={() => DefStage()}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                    </svg>
+                </button>
+            );
+        }
+        if (stage===1) {
+            return (
+                <button className="btn btn-secondary" onClick={() => DefStage()}>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                    </svg>
+                </button>
+            );
+        }
+    }
+
 
     return (
         <div className="vh-100">
@@ -134,7 +226,7 @@ export default function Experience () {
                     <div className="card-body">
                         <div className="row g-0">
                             <div className="col-4">
-                                <MoreBtn />
+                                <MoreJobBtn />
                             </div>
                             <div className="col-4 text-center">
                                 <h2>Jobs étudiants</h2>
@@ -143,7 +235,19 @@ export default function Experience () {
                         <MoreJobetu />
                     </div>
                 </div>
-
+                <div className="card mt-3">
+                    <div className="card-body">
+                        <div className="row g-0">
+                            <div className="col-4">
+                                <MoreStageBtn />
+                            </div>
+                            <div className="col-4 text-center">
+                                <h2>Stages</h2>
+                            </div>
+                        </div>
+                        <MoreStage />
+                    </div>
+                </div>
             </div>
         </div>
 
