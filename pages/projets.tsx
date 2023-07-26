@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Projets () {
     return (
         <div className="vh-100">
-            <div className="Animation_text_home">
+            <div className="">
                 <div className="row g-0 mb-4">
                     <div className="col-1 me-5">
                         <h1>Projets</h1>
@@ -19,7 +19,7 @@ export default function Projets () {
                     </div>
                 </div>
             </div>
-            <div className="scale_in_center">
+            <div className="">
                 <div className="card">
                     <div className="card-body">
                         <div className="row g-0">

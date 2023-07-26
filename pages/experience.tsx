@@ -208,7 +208,7 @@ export default function Experience () {
 
     return (
         <div className="vh-100">
-            <div className="Animation_text_home">
+            <div className="">
                 <div className="row g-0 mb-4">
                     <div className="col-2 me-4">
                         <h1>Expérience</h1>
@@ -221,7 +221,7 @@ export default function Experience () {
                     </div>
                 </div>
             </div>
-            <div className="scale_in_center">
+            <div className="">
                 <div className="card">
                     <div className="card-body">
                         <div className="row g-0">
