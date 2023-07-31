@@ -3,6 +3,11 @@ import avio from "../public/images/Projavio.png"
 import pipo from "../public/images/projpipeau.png"
 import catia1 from "../public/images/projcatiacrete.png"
 import catia2 from "../public/images/Projcatiacollab.png"
+import catia3 from "../public/images/projcatiaaile.png"
+import projthermo from "../public/images/projthermo.png"
+import projthermo2 from "../public/images/projthermo2.png"
+import projcalcul from "../public/images/projcalcul.png"
+
 import Image from "next/image";
 
 export default function Projets () {
@@ -108,7 +113,7 @@ export default function Projets () {
                                 <Image src={catia1} alt="" height="150"></Image>
                             </div>
                             <div className="col mt-5 text-center">
-                                <h3>2022</h3>
+                                <h3>2021-2022</h3>
                             </div>
                         </div>
                     </div>
@@ -134,6 +139,102 @@ export default function Projets () {
                         </div>
                     </div>
                 </div>
+
+                <div className="card mt-5">
+                    <div className="card-body">
+                        <div className="row g-0">
+                            <div className="col-6">
+                                <h2>Calcul Numérique :<br></br> Tube à choc </h2>
+                                <a href="../public/pdf/ProjCalculNum.pdf" download>
+                                Sujet</a>
+                                <p>
+                                    - Caclul théorique de discrétisation d&apos;équations<br></br>
+                                    - Visualisation python<br></br>
+                                </p>
+                            </div>
+                            <div className="col-4 mt-5 ps-4">
+                                <Image src={projcalcul} alt="" height="150"></Image>
+                            </div>
+                            <div className="col mt-5 text-center">
+                                <h3>2022</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div className="card mt-5">
+                    <div className="card-body">
+                        <div className="row g-0">
+                            <div className="col-6">
+                                <h2>CATIA V5 :<br></br> Conception <br></br>Aile d&apos;avion </h2>
+                                <a href="../public/pdf/ProjCatia3" download>
+                                Sujet</a>
+                                <p>
+                                    - Démarche de conception complète d&apos;aile d&apos;avion en partant de profils
+                                    choisis par le bureau d&apos;études aérodynamiques
+                                </p>
+                            </div>
+                            <div className="col-4 mt-5 ps-4">
+                                <Image src={catia3} alt="" height="150"></Image>
+                            </div>
+                            <div className="col mt-5 text-center">
+                                <h3>2022-2023</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card mt-5">
+                    <div className="card-body">
+                        <div className="row g-0">
+                            <div className="col-6">
+                                <h2>Projet thermodynamique :<br></br> CANTERA </h2>
+                                <a href="../public/pdf/projthermo.pdf" download>
+                                Sujet</a>
+                                <p>
+                                    - Calcul analytique de la température adiabatique de flamme <br></br>
+                                    - Calcul CANTERA <br></br>
+                                    - Étude de l&apos;influence de la température et la pression d&apos;équilibre sur les propriétés du mélange
+                                </p>
+                            </div>
+                            <div className="col-4 mt-5 ps-4">
+                                <Image src={projthermo} alt="" height="100"></Image>
+                            </div>
+                            <div className="col mt-5 text-center">
+                                <h3>2022-2023</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="card mt-5">
+                    <div className="card-body">
+                        <div className="row g-0">
+                            <div className="col-6">
+                                <h2>Projet thermodynamique :<br></br> Conception maison </h2>
+                                <a href="../public/pdf/RapportProjThermique.pdf" download>
+                                Rapport</a>
+                                <p>
+                                    - Conception d&apos;une maison et des plans <br></br>
+                                    - Analyser les aspects thermiques d&apos;une maison
+                                    individuelle<br></br>
+                                    - Calcul des déperditions <br></br>
+                                    - Respect des exigences de la loi RT 2012
+                                </p>
+                            </div>
+                            <div className="col-4 mt-5 ps-4">
+                                <Image src={projthermo2} alt="" height="150"></Image>
+                            </div>
+                            <div className="col mt-5 text-center">
+                                <h3>2022-2023</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
     );
