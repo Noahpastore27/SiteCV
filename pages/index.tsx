@@ -4,6 +4,7 @@ import About from "./about"
 import Formation from "./formation";
 import Experience from "./experience";
 import Projets from "./projets";
+import Contact from "./contact";
 import { useState } from "react";
 export default function App() {
   
@@ -33,7 +34,7 @@ export default function App() {
       return (<></>);
     }
     if (currentPage === 'contact') {
-      return (<></>);
+      return (<Contact></Contact>);
     }
   } 
 

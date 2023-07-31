@@ -2,6 +2,7 @@ import tictac from "../public/images/projtictactoe.png"
 import avio from "../public/images/Projavio.png"
 import pipo from "../public/images/projpipeau.png"
 import catia1 from "../public/images/projcatiacrete.png"
+import catia2 from "../public/images/Projcatiacollab.png"
 import Image from "next/image";
 
 export default function Projets () {
@@ -30,7 +31,7 @@ export default function Projets () {
                                 </a>
                                 <p>
                                     Implémentation d&apos;un Ultimate TicTacToe en language ADA :<br></br>
-                                    - Visualisation du jeu dans la console. <br></br>
+                                    - Visualisation du jeu dans la console <br></br>
                                     - Enregistrement d&apos;une partie<br></br>
                                     - Mode 2 joueurs : Joueur V/S Ordinateur & Joueur V/S Joueur <br></br>
                                     - Mode auto : Ordinateur V/S Ordinateur
@@ -94,17 +95,38 @@ export default function Projets () {
                         <div className="row g-0">
                             <div className="col-6">
                                 <h2>CATIA V5/6 :<br></br> Rétroconception <br></br>crête et fuselage d&apos;avion </h2>
-                                <a href="../public/pdf/ProjPipeau.pdf" download>
+                                <a href="../public/pdf/ProjCatia.pdf" download>
                                 Sujet</a>
                                 <p>
                                     - Rétroconception et fabrication du 1er chasseur conçu <br></br> et construit en 
                                     grande série par Dassault pour l&apos;Armée de l&apos;Air <br></br>
                                     - Depuis 2010, un projet de re-conception de l&apos;avion est en cours au 
-                                    sein de Dassault Aviation et implique des étudiants de divers cursus.
+                                    sein de Dassault Aviation et implique des étudiants de divers cursus
                                 </p>
                             </div>
                             <div className="col-4 mt-5 ps-4">
                                 <Image src={catia1} alt="" height="150"></Image>
+                            </div>
+                            <div className="col mt-5 text-center">
+                                <h3>2022</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="card mt-5">
+                    <div className="card-body">
+                        <div className="row g-0">
+                            <div className="col-6">
+                                <h2>CATIA V5/6 :<br></br> Conception collaborative <br></br>Appui réglable </h2>
+                                <a href="../public/pdf/ProjCatia2" download>
+                                Sujet</a>
+                                <p>
+                                    - Apprentissage de la conception collaborative sur Catia<br></br>
+                                    - Travail d&apos;équipe sur un projet
+                                </p>
+                            </div>
+                            <div className="col-4 mt-5 ps-4">
+                                <Image src={catia2} alt="" height="150"></Image>
                             </div>
                             <div className="col mt-5 text-center">
                                 <h3>2022</h3>
