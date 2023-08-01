@@ -4,6 +4,7 @@ import About from "./about"
 import Formation from "./formation";
 import Experience from "./experience";
 import Projets from "./projets";
+import More from "./more";
 import Contact from "./contact";
 import { useState } from "react";
 export default function App() {
@@ -31,7 +32,7 @@ export default function App() {
       return (<Projets></Projets>);
     }
     if (currentPage === 'encore') {
-      return (<></>);
+      return (<More></More>);
     }
     if (currentPage === 'contact') {
       return (<Contact></Contact>);

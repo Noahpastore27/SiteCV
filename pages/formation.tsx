@@ -39,7 +39,7 @@ export default function Formation () {
                         </div>
                     </div>
                 </div>
-                <div className="card mt-5">
+                <div className="card mt-4">
                     <div className="card-body">
                         <div className="row g-0">
                             <div className="col-6 pe-5">
@@ -59,7 +59,7 @@ export default function Formation () {
                         </div>
                     </div>
                 </div>
-                <div className="card mt-5">
+                <div className="card mt-4">
                     <div className="card-body">
                         <div className="row g-0">
                             <div className="col-6">
