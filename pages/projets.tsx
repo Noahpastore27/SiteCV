@@ -31,9 +31,6 @@ export default function Projets () {
                         <div className="row g-0">
                             <div className="col-7">
                                 <h2>Algorithme & Systèmes numériques : Ultimate TicTacToe</h2>
-                                <a href="../public/pdf/ProjTictactoe.pdf" download>
-                                    Sujet
-                                </a>
                                 <p>
                                     Implémentation d&apos;un Ultimate TicTacToe en language ADA :<br></br>
                                     - Visualisation du jeu dans la console <br></br>
@@ -57,8 +54,6 @@ export default function Projets () {
                             <div className="col-6 pe-5">
                                 <h2>Avionique : <br></br> Gestion & contrôle d&apos;un
                                 simulateur de drone</h2>
-                                <a href="../public/pdf/Proj_Avionique_Sujet.pdf" download>
-                                Sujet</a>
                                 <p>
                                     - Focus sur l&apos;implémentation downlink des capteurs du drone vers le simulateur
                                     de l&apos;ordinateur en language C <br></br>
@@ -79,8 +74,6 @@ export default function Projets () {
                         <div className="row g-0">
                             <div className="col-6">
                                 <h2>Signal & Systèmes : <br></br> Compétition D3S </h2>
-                                <a href="../public/pdf/ProjPipeau.pdf" download>
-                                Sujet</a>
                                 <p>
                                     - Implémenter un rover capable d&apos;avancer à l&apos;oreille <br></br>
                                     - Course entre équipes de travail
@@ -100,8 +93,6 @@ export default function Projets () {
                         <div className="row g-0">
                             <div className="col-6">
                                 <h2>CATIA V5/6 :<br></br> Rétroconception <br></br>crête et fuselage d&apos;avion </h2>
-                                <a href="../public/pdf/ProjCatia.pdf" download>
-                                Sujet</a>
                                 <p>
                                     - Rétroconception et fabrication du 1er chasseur conçu <br></br> et construit en 
                                     grande série par Dassault pour l&apos;Armée de l&apos;Air <br></br>
@@ -123,8 +114,6 @@ export default function Projets () {
                         <div className="row g-0">
                             <div className="col-6">
                                 <h2>CATIA V5/6 :<br></br> Conception collaborative <br></br>Appui réglable </h2>
-                                <a href="../public/pdf/ProjCatia2" download>
-                                Sujet</a>
                                 <p>
                                     - Apprentissage de la conception collaborative sur Catia<br></br>
                                     - Travail d&apos;équipe sur un projet
@@ -145,8 +134,6 @@ export default function Projets () {
                         <div className="row g-0">
                             <div className="col-6">
                                 <h2>Calcul Numérique :<br></br> Tube à choc </h2>
-                                <a href="../public/pdf/ProjCalculNum.pdf" download>
-                                Sujet</a>
                                 <p>
                                     - Caclul théorique de discrétisation d&apos;équations<br></br>
                                     - Visualisation python<br></br>
@@ -168,8 +155,6 @@ export default function Projets () {
                         <div className="row g-0">
                             <div className="col-6">
                                 <h2>CATIA V5 :<br></br> Conception <br></br>Aile d&apos;avion </h2>
-                                <a href="../public/pdf/ProjCatia3" download>
-                                Sujet</a>
                                 <p>
                                     - Démarche de conception complète d&apos;aile d&apos;avion en partant de profils
                                     choisis par le bureau d&apos;études aérodynamiques
@@ -190,8 +175,6 @@ export default function Projets () {
                         <div className="row g-0">
                             <div className="col-6">
                                 <h2>Projet thermodynamique :<br></br> CANTERA </h2>
-                                <a href="../public/pdf/projthermo.pdf" download>
-                                Sujet</a>
                                 <p>
                                     - Calcul analytique de la température adiabatique de flamme <br></br>
                                     - Calcul CANTERA <br></br>
@@ -213,8 +196,6 @@ export default function Projets () {
                         <div className="row g-0">
                             <div className="col-6">
                                 <h2>Projet thermodynamique :<br></br> Conception maison </h2>
-                                <a href="../public/pdf/RapportProjThermique.pdf" download>
-                                Rapport</a>
                                 <p>
                                     - Conception d&apos;une maison et des plans <br></br>
                                     - Analyser les aspects thermiques d&apos;une maison

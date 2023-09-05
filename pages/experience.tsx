@@ -121,8 +121,6 @@ export default function Experience () {
                                 <a href="https://ace-normandie.com/lentreprise/lentreprise-2/" target="_blank" rel="noopener noreferrer">
                                 ACE</a>
                                 <p>Querqueville</p>
-                                <a href="../public/pdf/LANGLOIS_Noah_SO2022.pdf"
-                                download>Rapport de stage</a>
                             </div>
                             <div className="col text-center mt-2">
                                 <Image src={ace} alt="" height="100"></Image>
