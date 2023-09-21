@@ -11,7 +11,7 @@ export default function About () {
                 <p className="scale_in_center">Actuellement étudiant ingénieur à l&apos;<a href="https://www.ensma.fr/" 
                 target="_blank" rel="noopener noreferrer">ISAE-ENSMA</a> où je me suis spécialisé en informatique
                 et avionique, je suis à la recherche d&apos;un projet de fin d&apos;étude afin d&apos;achever ma formation.</p>
-                <p className="scale_in_center">Vous pourrez retrouver sur ce site toutes les informations me concerant, mon expérience, ma formation et plein
+                <p className="scale_in_center">Vous pourrez retrouver sur ce site toutes les informations me conçerant, mon expérience, ma formation et plein
                 d&apos;autres ! N&apos;hésitez pas à me contacter !
                 </p>
             </div>
